@@ -53,13 +53,16 @@ Get-ItemProperty 'AD:\CN=Schema,CN=Configuration,DC=contoso,DC=local' -Name obje
 ### Some "objectVersion" attribute map
 
 The following information provides a mapping between the **objectVersion** attribute value to the Active Directory Schema commutability:
-
-13 -> Windows 2000 Server  
-30 -> Windows Server 2003 RTM, Windows 2003 With Service Pack 1, Windows 2003 With Service Pack 2  
-31 -> Windows Server 2003 R2  
-44 -> Windows Server 2008 RTM
-87 -> Windows Server 2016
-88 -> Windows Server 2019
+| Schema Version | Operating System |
+| :---: |:-------|
+| 13 | Windows 2000 Server |  
+| 30 | Windows Server 2003 RTM, Windows 2003 With Service Pack 1, Windows 2003 With Service Pack 2 |
+| 31 | Windows Server 2003 R2 |  
+| 44 | Windows Server 2008 RTM |
+| 56 | Windows Server 2012 |
+| 69 | Windows Server 2012 R2 |
+| 87 | Windows Server 2016 |
+| 88 | Windows Server 2019 |
 
 ## How to find the current Exchange Schema Version
 
